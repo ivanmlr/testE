@@ -12,7 +12,7 @@ public class ThreadEjemplo extends Thread {
 		public static void main (String [] args) {
 		 new ThreadEjemplo("Pepe").start();
 		 new ThreadEjemplo("Juan").start();
-		 System.out.println("Termina thread main");
+		 System.out.println("Termina thread mains");
 		 }
 		}
 
